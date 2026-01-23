@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #F4F0EA;
+    background-color: #ddecfa9c;
     color: #000000ee;
     font-family: "Cabin", sans-serif;
     font-weight: 400;
@@ -50,8 +50,37 @@ input[type="text"], input[type="password"], input[type="date"], input[type="emai
     background-color: rgb(235, 246, 247);
 }
 
+.perguntas > section{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 0 30px 0;
+
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.perguntas:hover > section{
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.formulario{
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 0 30px 0;
+
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+.formulario:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
 input::placeholder {
-    color: rgb(75, 75, 75)
+    color: rgb(75, 75, 75);
+    margin: 10px 0;
+    cursor: pointer;
 }
 
 select{
